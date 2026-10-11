@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html Lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>My Portfolio</title>
+
+        <link rel="stylesheet" href="style.css"     
+    </head>
+
+    <body>
+    <header>
+        <img src="ProfileImage.jpg" height="200px" weidth="150px" alt="Profile Imahge">
+        <h1>My Portfolio</h1>
+    </header>
+
+    <form>
+        <fieldset>
+            <Legend>Personal Information</Legend>
+            <table>
+                <tr>
+                    <td> <label for="FullName">Full Name:</label></td>
+                    <td> <input type="text" id="FullName" name="Fullname" placeholder="Enter your full name" required></td>
+                </tr>
+                <tr>
+                    <td> <label for="Age">Age:</label></td>
+                    <td> <input type="Number" id="Age"  placeholder="Enter your age" required></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="Email">Email:</label></td>
+                    <td> <input type="email" id="Email" placeholder="Enter your Email" required></td>
+                </tr>
+
+                <tr>
+                    <td><label>Gender:</label> </td>
+                    <td><input type="radio" id="Male" name="Gender" value="Male"><label for="Male">Male</label></td>
+
+                </tr>
+
+                <tr>
+                    <td> <label for="DOB">Date of Birth:</label></td>
+                    <td> <input type="date" id="DOB"</td>
+                </tr>
+
+                <tr>
+                    <td><label for="Document">Upload Document:</label></td>
+                    <td><input type="file" id="Document"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="address">Address</label></td>
+                    <td><textarea id="address" placeholder="Enter your address" rows="4" cols="30"></textarea></td>
+                </tr>
+
+
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <Legend>Education</Legend>
+            <table>
+                <tr>
+                    <td><label for="Qualification">Qualification:</label></td>
+                    <td>
+                        <select id="Qualification">
+                            <option id="blank">.....</option>"
+                            <option id="SSC">SSC</option>
+                            <option id="HSC">HSC</option>
+                            <option id="B.SC.">B.SC.</option>
+
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="Institution">Institution:</label></td>
+                    <td><input type="text" id="Institution" placeholder="Enter your Institution name" required></td>
+
+                </tr>
+
+                <tr>
+                    <td><label for="Year">Year of passing:</label></td>
+                    <td><input type="number" id="Year" placeholder="Enter year of passing" required></td>
+
+                </tr>
+
+
+            </table>
+        </fieldset>
+
+        <fieldset>
+                <legend> Skills </legend>
+                <table>
+                    <tr>
+                        <td> <label> Technical Skills: </label> </td>
+                        <td>
+                            <input type="checkbox" id="HTML" name="skill"> <label for="HTML"> HTML </label>
+                            <input type="checkbox" id="CSS" name="skill"> <label for="CSS"> CSS </label>
+                            <input type="checkbox" id="JS" name="skill"> <label for="JS"> JavaScript </label>
+                            <input type="checkbox" id="Python" name="skill"> <label for="Python"> Python </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <label> Skill Level: </label> </td>
+                        <td>
+                            <input type="radio" id="Beginner" name="level" value="Beginner"> <label for="Beginner"> Beginner </label>
+                            <input type="radio" id="Intermediate" name="level" value="Intermediate"> <label for="Intermediate"> Intermediate </label>
+                            <input type="radio" id="Advanced" name="level" value="Advanced"> <label for="Advanced"> Advanced </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="OtherSkills"> Other Skills: </label> </td>
+                        <td> <textarea id="OtherSkills" placeholder="Example: Teamwork, Communication" rows="3" cols="30"></textarea> </td>
+                    </tr>
+                </table>
+            </fieldset>
+
+    </form>
+    </body>
+   
+    
+</html>
